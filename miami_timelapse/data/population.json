@@ -1,0 +1,54 @@
+{
+  "_about": "Population series for the on-screen counter. Recommended counter: 'miami_area' below. It uses estimates before 1900, the City of Miami for 1900-1910, and Miami-Dade County from 1920, because the camera shows the metro area and the county line is the more dramatic, honest curve. Interpolate between points; hold or drop on the events marked in 'dips'. Pre-1915 county figures include Palm Beach/Broward territory, so they are not used.",
+  "miami_area": [
+    {"year": -500, "value": 800, "type": "estimate", "note": "Low end of the Tequesta estimate (800-10,000 across their whole territory; no figure exists for the village alone). Pick a modest number and caption it as an estimate"},
+    {"year": 1566, "value": 800, "type": "estimate"},
+    {"year": 1743, "value": 180, "type": "count", "note": "Spanish survey: 180 natives, half of them children"},
+    {"year": 1763, "value": 0, "type": "estimate", "note": "Remaining natives leave for Cuba"},
+    {"year": 1800, "value": 20, "type": "estimate", "note": "First permanent settlers (few families). Illustrative, not sourced"},
+    {"year": 1830, "value": 70, "type": "estimate", "note": "Plantation with about 60 enslaved people plus the Fitzpatrick household"},
+    {"year": 1836, "value": 5, "type": "estimate", "note": "Evacuated in Jan 1836; soldiers not counted"},
+    {"year": 1850, "value": 96, "type": "census", "note": "Ninety-six residents"},
+    {"year": 1870, "value": 85, "type": "estimate", "note": "A handful of families (1858-1896). Illustrative"},
+    {"year": 1896, "value": 1000, "type": "estimate", "note": "At incorporation, 368 voters (men only). Illustrative total"},
+    {"year": 1900, "value": 1681, "type": "census", "series": "City of Miami"},
+    {"year": 1910, "value": 5471, "type": "census", "series": "City of Miami"},
+    {"year": 1920, "value": 42753, "type": "census", "series": "Dade County"},
+    {"year": 1930, "value": 142955, "type": "census", "series": "Dade County"},
+    {"year": 1940, "value": 267739, "type": "census", "series": "Dade County"},
+    {"year": 1950, "value": 495084, "type": "census", "series": "Dade County"},
+    {"year": 1960, "value": 935047, "type": "census", "series": "Dade County"},
+    {"year": 1970, "value": 1267792, "type": "census", "series": "Dade County"},
+    {"year": 1980, "value": 1625781, "type": "census", "series": "Dade County"},
+    {"year": 1990, "value": 1937094, "type": "census", "series": "Dade County"},
+    {"year": 2000, "value": 2253362, "type": "census", "series": "Miami-Dade County"},
+    {"year": 2010, "value": 2496435, "type": "census", "series": "Miami-Dade County"},
+    {"year": 2020, "value": 2701767, "type": "census", "series": "Miami-Dade County"}
+  ],
+  "dips": [
+    {"year": 1570, "reason": "Mission conflict; the Tequesta withdraw into the Everglades (temporary)"},
+    {"year": 1710, "reason": "Raids; 280 taken to Cuba, nearly 200 die"},
+    {"year": 1763, "reason": "Last natives evacuated"},
+    {"year": 1836, "reason": "Second Seminole War evacuation"},
+    {"year": 1926, "reason": "The hurricane leaves about 43,000 homeless and people leave after the boom. Show a flat line or a small dip; no census exists for 1926"}
+  ],
+  "city_of_miami": [
+    {"year": 1900, "value": 1681}, {"year": 1910, "value": 5471}, {"year": 1920, "value": 29549}, {"year": 1930, "value": 110637},
+    {"year": 1940, "value": 172172}, {"year": 1950, "value": 249276}, {"year": 1960, "value": 291688}, {"year": 1970, "value": 334859},
+    {"year": 1980, "value": 346865}, {"year": 1990, "value": 358548}, {"year": 2000, "value": 362470}, {"year": 2010, "value": 399457},
+    {"year": 2020, "value": 442241}, {"year": 2024, "value": 487014, "type": "estimate"}
+  ],
+  "miami_beach": [
+    {"year": 1920, "value": 644}, {"year": 1930, "value": 6494}, {"year": 1940, "value": 28012}, {"year": 1960, "value": 63145}, {"year": 2020, "value": 82890}
+  ],
+  "sources": [
+    "https://fcit.usf.edu/florida/docs/c/census/Miami-Dade.htm",
+    "https://en.wikipedia.org/wiki/Timeline_of_Miami",
+    "https://en.wikipedia.org/wiki/History_of_Miami",
+    "https://en.wikipedia.org/wiki/Demographics_of_Miami",
+    "https://edr.state.fl.us/Content/area-profiles/2020-census-county-city/2020PL94-171_086.pdf",
+    "https://en.wikipedia.org/wiki/Miami_Beach,_Florida",
+    "https://en.wikipedia.org/wiki/Tequesta",
+    "https://www.miami-history.com/p/spanish-missions-on-miami-river-part-2-of-2"
+  ]
+}

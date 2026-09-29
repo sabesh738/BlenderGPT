@@ -1,0 +1,364 @@
+{
+  "_about": "How every armed conflict and military event touching Miami was actually fought, broken down for animation. Coordinates are approximate (WGS84) and meant for placement in the 3D scene, not surveying. confidence: high = confirmed by 2+ independent sources; medium = single source or inferred from confirmed facts (the inference is stated); low = plausible but unconfirmed, verify before animating. 'do_not_show' lists things that would be historically wrong.",
+  "_global_note": "Miami has NEVER been bombed from the air and no air-to-air or air-to-ground combat ever happened over the city. Military aircraft appear only as training flights, anti-submarine patrols, blimp convoy escorts (1942-45), alert/scramble fighters and reconnaissance jets heading south toward Cuba (1962), and one disguised B-26 landing at Miami International Airport (1961). Animate jets as patrols, take-offs and fly-overs, never as attacks on Miami.",
+  "sequences": [
+    {
+      "id": "W01_spanish_tequesta",
+      "title": "The Spanish arrive / the mission fails",
+      "years": [1566, 1570],
+      "type": "colonial conflict",
+      "in_main_frame": true,
+      "sides": [
+        {"side": "Spain", "forces": "Pedro Menendez de Aviles' expedition; in March 1567 a mission inside a stockade with 30 soldiers and Jesuit brother Francisco Villareal", "vessels": "Small sailing vessels. Menendez sailed with 'one hundred men in three brigantines' in June 1566 on his coastal voyages; the exact ships at Tequesta are not recorded", "weapons": "Arquebuses, swords, armour (typical Spanish kit of the period, not specifically documented here)", "confidence": "medium"},
+        {"side": "Tequesta", "forces": "Main village at the mouth of the Miami River; population estimates at contact range from 800 to 10,000", "vessels": "Dugout canoes", "weapons": "Not described in the sources gathered; verify before animating", "confidence": "medium"}
+      ],
+      "approach": {"medium": "sea", "from": "Havana / St. Augustine along the coast", "to": "Mouth of the Miami River", "path_hint": "Ships enter Biscayne Bay through the gap north of Key Biscayne (there is no Government Cut yet) and anchor off the river mouth"},
+      "beats": [
+        {"beat": "arrival", "year": 1566, "what": "Menendez lands at the Tequesta village and erects a cross"},
+        {"beat": "build", "year": 1567, "what": "Stockade/blockhouse mission, 30 soldiers, Brother Villareal teaching children"},
+        {"beat": "conflict", "year": 1567, "what": "Spanish soldiers kill (accounts say executed) an uncle of the chief; the Tequesta burn their own settlement and withdraw into the Everglades, later returning to attack the garrison"},
+        {"beat": "retreat", "year": 1568, "what": "Most soldiers escape and withdraw to St. Augustine (by sea)"},
+        {"beat": "aftermath", "year": 1570, "what": "Mission abandoned; the Jesuits withdraw from Florida"}
+      ],
+      "effects": ["cross being raised", "wooden stockade", "village huts on fire", "canoes paddling west up the river", "ship sailing away north"],
+      "do_not_show": ["a pitched battle with many dead: no casualty numbers are recorded", "stone forts: it was a timber stockade"],
+      "location_notes": "Sources disagree on which bank the 1567 stockade stood on: miami-history.com says the north bank; Wikipedia (Tequesta) and Legends of America say near the south bank. See README discrepancies.",
+      "locations": [{"name": "Tequesta main village, north bank of the river mouth", "lat": 25.7725, "lon": -80.1885}],
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/Tequesta", "https://en.wikipedia.org/wiki/History_of_Miami", "https://www.legendsofamerica.com/tequesta-tribe/", "https://www.miami-history.com/p/spanish-missions-on-miami-river-part-1-of-2"]
+    },
+    {
+      "id": "W02_slave_raids_and_removal",
+      "title": "Raids from the north and removal to Cuba",
+      "years": [1704, 1718],
+      "type": "slave raids / depopulation",
+      "in_main_frame": false,
+      "sides": [
+        {"side": "Carolina settlers and allied Yamasee raiders", "forces": "Raiding parties; by 1707 they had 'killed, carried off, or driven away most of the remaining native inhabitants' down the full length of the peninsula", "confidence": "medium"},
+        {"side": "Spain", "forces": "Evacuation ships: 280 South Florida natives taken to Cuba in 1710, nearly 200 died; survivors returned to the Keys in 1716-1718", "vessels": "Spanish ships from Havana", "confidence": "medium"}
+      ],
+      "approach": {"medium": "land and canoe from the north; Spanish evacuation by sea to Havana"},
+      "beats": [
+        {"beat": "raids", "year": 1707, "what": "Villages emptied; population counter falls"},
+        {"beat": "evacuation", "year": 1710, "what": "Ships carry about 280 people to Cuba"}
+      ],
+      "effects": ["huts disappearing", "canoes leaving", "a ship departing south"],
+      "do_not_show": ["a specific battle at the Miami River: no documented raid on the Miami village itself was found; show the depopulation, not a staged fight"],
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/Tequesta", "https://en.wikipedia.org/wiki/History_of_slavery_in_Florida"]
+    },
+    {
+      "id": "W03_mission_1743",
+      "title": "The last mission (Pueblo de Santa Maria de Loreto)",
+      "years": [1743, 1744],
+      "type": "colonial outpost, no battle",
+      "in_main_frame": true,
+      "sides": [{"side": "Spain", "forces": "Jesuit Fathers Joseph Maria Monaco and Joseph Xavier Alana, with men from the garrison", "vessels": "Sent from Cuba; left June 24, 1743 and anchored at the river mouth about three weeks later (ship type not recorded)"}],
+      "approach": {"medium": "sea", "from": "Cuba", "to": "Mouth of the Miami River"},
+      "beats": [
+        {"beat": "arrival", "year": 1743, "what": "Ship anchors; stockade built near the water's edge"},
+        {"beat": "tension", "year": 1743, "what": "Only 180 natives live there, half of them children; the adults are hostile"},
+        {"beat": "abandonment", "year": 1744, "what": "Mission closed (Wikipedia's Tequesta article says it lasted less than three months)"}
+      ],
+      "locations": [{"name": "1743 stockade site, near today's Southeast Financial Center (formerly Wachovia Financial Center)", "lat": 25.7735, "lon": -80.1880}],
+      "confidence": "high",
+      "sources": ["https://www.miami-history.com/p/spanish-missions-on-miami-river-part-2-of-2", "https://communitynewspapers.com/biscayne-bay/miamis-jesuit-missions/", "https://en.wikipedia.org/wiki/Tequesta"]
+    },
+    {
+      "id": "W04_seminole_war_plantation",
+      "title": "Second Seminole War reaches the Miami River",
+      "years": [1836, 1836],
+      "date": "1836-01-06",
+      "type": "evacuation under threat",
+      "in_main_frame": true,
+      "sides": [{"side": "Fitzpatrick plantation", "forces": "Overseer James Wright, about 60 enslaved workers and local white families", "confidence": "high"}],
+      "approach": {"medium": "Seminole threat by land from the interior; evacuation by boat"},
+      "beats": [
+        {"beat": "threat", "what": "By January 6, 1836 the plantation is under imminent threat"},
+        {"beat": "evacuation", "what": "Everyone is evacuated. Many of the enslaved people did not feel threatened by the Seminoles and wanted to join them"},
+        {"beat": "aftermath", "what": "Plantation abandoned; fields go back to scrub"}
+      ],
+      "do_not_show": ["an attack on the plantation: the sources describe a threat and evacuation, not a battle"],
+      "locations": [{"name": "Fitzpatrick plantation, north bank of the Miami River", "lat": 25.773, "lon": -80.1905}],
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Second_Seminole_War", "https://dunnhistory.com/slavery-in-miami-2/", "https://en.wikipedia.org/wiki/Fort_Dallas"]
+    },
+    {
+      "id": "W05_cape_florida_attack",
+      "title": "Attack on the Cape Florida Lighthouse",
+      "years": [1836, 1836],
+      "date": "1836-07-23",
+      "type": "raid / siege of a single tower",
+      "in_main_frame": "wide frame only (Key Biscayne, about 12 km south of downtown)",
+      "sides": [
+        {"side": "Seminole warriors", "forces": "A raiding band (Thompson's account as reported: about 12 Seminoles in 'the sloop'; other retellings say 30-40, so the number is disputed)", "vessels": "Arrived by water; Key Biscayne is an island. One account mentions a sloop; canoes are likely too (inferred)", "weapons": "Rifles; fire", "confidence": "medium"},
+        {"side": "Lighthouse", "forces": "Assistant keeper John W. B. Thompson and Aaron Carter, a Black handyman. Carter was killed", "weapons": "Rifle/muskets, balls, a keg of gunpowder", "confidence": "high"},
+        {"side": "US Navy (rescue)", "vessels": "Navy schooner Motto, then men from the schooner Pee Dee the next day", "confidence": "high"}
+      ],
+      "approach": {"medium": "sea/bay", "from": "Mainland or the bay side", "to": "Cape Florida, south tip of Key Biscayne"},
+      "beats": [
+        {"beat": "arrival", "time": "about 4 p.m.", "what": "Seminoles surround the tower; rifle balls go through Thompson's clothes and hat"},
+        {"beat": "fire", "what": "Raiders set fire to the door and a boarded-up ground-floor window; bullets pierce the tanks holding 225 gallons of lamp oil, which ignites"},
+        {"beat": "last stand", "what": "Thompson and Carter climb to the top with rifle, balls and a powder keg, cutting away part of the wooden stairs below them"},
+        {"beat": "explosion", "after_dark": true, "what": "Thompson throws the keg down the burning tower; it explodes but the tower stands. Carter dies"},
+        {"beat": "withdrawal", "what": "Believing both men dead, the raiders pillage the keeper's house and leave"},
+        {"beat": "rescue", "date": "1836-07-24", "what": "Motto heard the blast 12 miles away; the next day its crew and men from the Pee Dee fire a ramrod tied to a line up to Thompson and haul him down"}
+      ],
+      "effects": ["musket smoke puffs", "fire at the tower base", "flames climbing the inside of the tower (glow in the windows)", "night explosion flash", "burning keeper's house", "schooner with sails at dawn"],
+      "aftermath": "The light stays dark for 10 years; it is repaired in 1846 and relit in April 1847",
+      "locations": [{"name": "Cape Florida Light", "lat": 25.6664, "lon": -80.1557}],
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Cape_Florida_Light", "https://www.lighthousefriends.com/light.asp?ID=360", "https://myfloridahistory.org/date-in-history/july-23-1836/seminoles-attack-cape-florida-lighthouse", "https://floridaseminoletourism.com/the-1836-attack-on-the-cape-florida-lighthouse/"]
+    },
+    {
+      "id": "W06_fort_dallas_and_mosquito_fleet",
+      "title": "Fort Dallas and the Navy's 'Mosquito Fleet'",
+      "years": [1836, 1842],
+      "type": "military base and riverine warfare",
+      "in_main_frame": true,
+      "sides": [
+        {"side": "US Navy", "forces": "Summer 1836: Lt. L. M. Powell lands at the river mouth and builds blockhouses; post named after Commodore Alexander J. Dallas. From Oct 1, 1838 to Aug 3, 1842 Lt. John T. McLaughlin's Florida Squadron, based on Key Biscayne and Indian Key", "vessels": "Schooners (e.g. USS Flirt, flagship from Dec 1839) on Biscayne Bay patrols to stop trade between the Seminoles and Cuba/West Indies; canoes and flat-bottomed boats for joint Army-Navy Everglades expeditions", "confidence": "high"},
+        {"side": "US Army", "forces": "Army unit at Fort Dallas October 1839 to January 1842; Col. William S. Harney commanded 1839-1840", "confidence": "high"}
+      ],
+      "approach": {"medium": "sea (schooners patrolling the bay) + river (canoes going west up the Miami River)"},
+      "beats": [
+        {"beat": "build", "year": 1836, "what": "Blockhouses and barracks appear at the river mouth"},
+        {"beat": "patrols", "year": 1839, "what": "Schooners cruise Biscayne Bay; canoe flotillas head up the river"}
+      ],
+      "locations": [{"name": "Fort Dallas (original site, north bank near the river mouth)", "lat": 25.7722, "lon": -80.189}],
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Fort_Dallas", "https://en.wikipedia.org/wiki/Mosquito_Fleet", "https://en.wikipedia.org/wiki/USS_Flirt", "https://stars.library.ucf.edu/fhq/vol46/iss1/8/"]
+    },
+    {
+      "id": "W07_harney_raid",
+      "title": "Harney's canoe raid into the Everglades",
+      "years": [1840, 1840],
+      "date": "1840-12",
+      "type": "riverine raid",
+      "in_main_frame": "departure and return only; the fight itself is deep in the Everglades, off-map",
+      "sides": [
+        {"side": "US Army", "forces": "Col. William S. Harney with 90 men in 16 canoes; guided by a Black man named John who had been held captive by the Seminoles", "vessels": "16 canoes (borrowed from the Marines)", "tactics": "Soldiers dressed as Indians; dawn surprise attack", "confidence": "high"},
+        {"side": "Chakaika's band ('Spanish Indians')", "forces": "Camp on an island in the Everglades", "confidence": "high"}
+      ],
+      "approach": {"medium": "river", "from": "Fort Dallas", "to": "West up the Miami River, over the rapids, into the Everglades"},
+      "beats": [
+        {"beat": "departure", "what": "16 canoes paddle west from Fort Dallas"},
+        {"beat": "attack (off-map)", "what": "Dawn surprise; Chakaika shot while offering his hand; 4 killed in action, 5 hanged; Harney loses 1 soldier"},
+        {"beat": "return", "what": "Back at Fort Dallas after 12 days"}
+      ],
+      "effects": ["line of canoes on the river", "counter/caption for the 12 days"],
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Second_Seminole_War", "https://en.wikipedia.org/wiki/Fort_Dallas"]
+    },
+    {
+      "id": "W08_third_seminole_war",
+      "title": "Fort Dallas garrisoned again",
+      "years": [1849, 1858],
+      "type": "garrison, no battle at Miami",
+      "in_main_frame": true,
+      "beats": [
+        {"beat": "reoccupied", "date": "1849-10-20", "what": "US troops occupy Fort Dallas (about 15 months, uneventful)"},
+        {"beat": "war", "year": 1855, "what": "Reestablished for the Third Seminole War (1855-1858); William English's 1844 limestone slave quarters used as Army barracks"},
+        {"beat": "empty", "year": 1858, "what": "War ends; site left uninhabited again"}
+      ],
+      "locations": [{"name": "Fort Dallas stone barracks (original site; moved to Lummus Park in 1924)", "lat": 25.7722, "lon": -80.189}],
+      "confidence": "high",
+      "sources": ["https://myfloridahistory.org/date-in-history/october-20-1849/fort-dallas-miami-occupied-us-troops", "https://en.wikipedia.org/wiki/Fort_Dallas", "https://www.legendsofamerica.com/fort-dallas-florida/"]
+    },
+    {
+      "id": "W09_civil_war",
+      "title": "Civil War: the light goes dark",
+      "years": [1861, 1865],
+      "type": "sabotage and blockade, no battle at Miami",
+      "in_main_frame": "wide frame",
+      "sides": [
+        {"side": "Confederate sympathizers", "what": "In 1861 they destroyed the Cape Florida lamp and smashed the Fresnel lens prisms so blockade runners could slip past in the dark (Jupiter light also darkened)", "confidence": "high"},
+        {"side": "Union", "what": "Union blockade of the coast; the former Fort Dallas was re-occupied by Union forces", "vessels": "Blockading steam gunboats (e.g. USS Sagamore operated on Florida's east coast; ships specific to Biscayne Bay not found)", "confidence": "medium"}
+      ],
+      "beats": [
+        {"beat": "darkness", "year": 1861, "what": "Lighthouse beam switches off"},
+        {"beat": "blockade", "what": "A Union gunboat offshore; small blockade-running sailboats at night"},
+        {"beat": "relit", "year": 1866, "what": "Light repaired; keeper Temple Pent reappointed"}
+      ],
+      "do_not_show": ["a battle at Miami: none is recorded"],
+      "confidence": "medium",
+      "sources": ["https://en.wikipedia.org/wiki/Cape_Florida_Light", "https://www.lighthousefriends.com/light.asp?ID=360", "https://www.legendsofamerica.com/fort-dallas-florida/", "https://www.pbchistoryonline.org/page/union-naval-blockade-and-the-uss-sagamore"]
+    },
+    {
+      "id": "W10_spanish_american_war",
+      "title": "1898: Fort Brickell and Camp Miami",
+      "years": [1898, 1898],
+      "type": "coastal defence + training camp, no combat",
+      "in_main_frame": true,
+      "sides": [
+        {"side": "Miami", "forces": "Fort Robert W. Davis ('Fort Brickell'), begun April 5, 1898: an earth bunker 45 ft in diameter and 20 ft high with a wooden magazine; planned for 4 guns, only 2 heavy guns mounted; garrison of about 200 'Miami Minutemen' volunteers", "confidence": "high"},
+        {"side": "US Army volunteers", "forces": "Camp Miami, from June 24, 1898: more than 7,000 volunteers from Alabama, Louisiana and Texas", "arrival": "By train on the Florida East Coast Railway. The camp adjoined the FEC station and the railroad was the only overland route (inferred)", "confidence": "high (camp), medium (rail arrival)"}
+      ],
+      "beats": [
+        {"beat": "fortify", "date": "1898-04-05", "what": "Round earth bunker rises on the bay at Brickell"},
+        {"beat": "arrival", "date": "1898-06-24", "what": "Trains arrive; rows of white tents fill the north side of downtown"},
+        {"beat": "end", "date": "1898-08-12", "what": "War ends unofficially; no soldier trained here saw combat; tents cleared, fort disarmed"}
+      ],
+      "effects": ["two coastal guns", "tent grid", "drilling soldiers", "steam trains"],
+      "locations": [
+        {"name": "Fort Brickell (east of Brickell Ave and SE 18th Rd, facing the bay)", "lat": 25.7575, "lon": -80.1905},
+        {"name": "Camp Miami (Biscayne Blvd to NW 2nd Ave, south edge NE 2nd St)", "lat": 25.781, "lon": -80.1925}
+      ],
+      "confidence": "high",
+      "sources": ["https://www.miami-history.com/p/a-splendid-little-fort-in-miami-1898", "https://www.miami-history.com/p/miami-and-the-spanish-american-war-part-1-of-3"]
+    },
+    {
+      "id": "W11_ww2",
+      "title": "World War II: U-boats, blimps and a city in uniform",
+      "years": [1941, 1945],
+      "type": "naval / anti-submarine war offshore; mass military training onshore",
+      "in_main_frame": "partly: Miami Beach, Bayfront, the bay. The tanker sinking is about 20 km SE, off Fowey Rocks; the blimp base, Homestead and Opa-locka are off-map",
+      "sides": [
+        {"side": "Germany", "forces": "U-boats off the Florida coast; 24 ships sunk in Florida waters during the war", "vessels": "U-564 (Reinhard Suhren) sank the Mexican tanker Potrero del Llano; U-106 sank Faja de Oro on May 20, 1942; U-134 shot down blimp K-74 on July 18, 1943 in the Florida Straits", "confidence": "high"},
+        {"side": "US Navy", "forces": "Gulf Sea Frontier (Feb 1942; HQ in Miami's DuPont Building from June 1942). Submarine Chaser Training Center at Pier 2, Bayfront (March 1942). NAS Richmond blimp base (Sept 15, 1942; squadron ZP-21 from Oct 1942; 25 K-class blimps, 3 wooden hangars 16.5 storeys high and over 1,000 ft long; 3,000 men). NAS Miami at Opa-locka: advanced fighter school", "vessels": "Wooden subchasers and PC patrol craft (crews of 3 officers + 24 enlisted); USS PC-536 rescued the Potrero del Llano survivors", "aircraft": "K-class blimps (convoy escort over the Florida Straits); at NAS Miami: Brewster F2A Buffalo, Grumman F4F Wildcat, Douglas SBD Dauntless, Grumman TBF Avenger (training)", "confidence": "high"},
+        {"side": "US Army Air Forces", "forces": "Miami Beach Training Center (Feb 1942): the Army leased almost all of Miami Beach's hotels (more than 300 hotels and apartment buildings); nearly half a million men trained; golf courses and parks became drill fields. Miami's 36th Street Airport: ferry route from June 1941 (Air Transport Command). Homestead Army Air Field (Sept 1942): C-46, C-54, C-87 transport training", "confidence": "high"}
+      ],
+      "beats": [
+        {"beat": "lights on", "year": 1942, "what": "Early 1942: Miami stays lit for tourism; ships offshore are silhouetted against the glow"},
+        {"beat": "mobilise", "date": "1942-02", "what": "Soldiers marching on the beach and golf course; hotel windows lit as barracks"},
+        {"beat": "dim-out", "date": "1942-04-18", "what": "Coastal blackout/dim-out ordered; the city goes dark"},
+        {"beat": "attack", "date": "1942-05-14", "what": "U-564 torpedoes Potrero del Llano at 25°35'N 80°06'W. The tanker (6,132 tons of petroleum) burns; thousands watch from Miami Beach as it drifts north; 13 dead, 22 rescued by PC-536"},
+        {"beat": "patrol", "date": "1942-10", "what": "Blimps and subchasers escort convoys; subchasers train in the bay"},
+        {"beat": "end", "date": "1945-09-15", "what": "Hurricane: fire destroys all three Richmond hangars with 25 blimps and 368 aircraft inside"}
+      ],
+      "effects": ["burning tanker on the horizon at night with an orange sky glow", "crowds on the beach", "blimps (grey cigar shapes) drifting slowly offshore", "small grey subchasers in wakes", "lines of marching troops", "city lights switching off (dim-out)"],
+      "do_not_show": ["bombs or aircraft attacking Miami", "U-boats shelling the city: no such attack happened", "blimps before October 1942"],
+      "timing_note": "uboat.net logs the attack at '07:17 hours' without a time zone. U-boat logs are usually kept in German time, which would put the attack in the local night, and eyewitnesses describe the tanker burning for hours. Treat 'night' as likely but verify.",
+      "locations": [
+        {"name": "Potrero del Llano attack position", "lat": 25.5833, "lon": -80.1, "note": "about 1.5 km NW of Fowey Rocks Light"},
+        {"name": "Submarine Chaser Training Center, Pier 2 (Bayfront)", "lat": 25.78, "lon": -80.1865},
+        {"name": "Miami Beach Training Center drill field (municipal golf course)", "lat": 25.7985, "lon": -80.1395},
+        {"name": "NAS Richmond (blimp base)", "lat": 25.6075, "lon": -80.396, "in_main_frame": false},
+        {"name": "NAS Miami, Opa-locka", "lat": 25.907, "lon": -80.278, "in_main_frame": false},
+        {"name": "Homestead Army Air Field", "lat": 25.4885, "lon": -80.3836, "in_main_frame": false}
+      ],
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/SS_Potrero_del_Llano", "https://uboat.net/allies/merchants/ship/1648.html", "https://en.wikipedia.org/wiki/SS_Faja_de_Oro", "https://www.hmdb.org/m.asp?m=213649", "https://en.wikipedia.org/wiki/Naval_Air_Station_Richmond", "https://www.aoml.noaa.gov/hurricane_blog/70th-anniversary-of-the-homestead-hurricane/", "https://military-history.fandom.com/wiki/Miami_Beach_Training_Center", "https://www.miamibeachfl.gov/galeria/ww2-in-miami-beach/", "https://en.wikipedia.org/wiki/US_Navy_Small_Craft_Training_Center", "https://www.museumoffloridahistory.com/explore/exhibits/permanent-exhibits/world-war-ii/historical-sites/southeast-listing/nas-miami/", "https://en.wikipedia.org/wiki/Miami_Army_Airfield", "https://en.wikipedia.org/wiki/Homestead_Air_Reserve_Base", "https://legionmagazine.com/operation-drumbeat/", "https://en.wikipedia.org/wiki/History_of_Miami"]
+    },
+    {
+      "id": "W12_bay_of_pigs_and_jmwave",
+      "title": "The secret war against Castro",
+      "years": [1960, 1968],
+      "type": "covert operations; the invasion itself happened in Cuba",
+      "in_main_frame": "partly (MIA landing; exiles in Little Havana); the JM/WAVE base and boat launches are off-map",
+      "sides": [
+        {"side": "CIA / Cuban exiles", "forces": "Brigade 2506 (formed 1960) landed at the Bay of Pigs, Cuba on April 17, 1961. JM/WAVE station (1961-1968) in Building 25 at the former NAS Richmond, run through a front company, Zenith Technical Enterprises; at its peak (late 1962-early 1963) it ran the third-largest navy in the Caribbean", "vessels": "Mother ships Rex and Leda (Nicaraguan-flagged, based at Port Everglades and West Palm Beach) carrying fast raiding boats", "aircraft": "April 15, 1961: after B-26 strikes on Cuban airfields, a B-26 painted in Cuban Air Force markings and deliberately shot full of holes lands at Miami International Airport; pilot Mario Zuniga poses as a 'defector'", "confidence": "high"}
+      ],
+      "beats": [
+        {"beat": "deception", "date": "1961-04-15", "what": "Single B-26 (twin piston engines) lands at MIA; press photos"},
+        {"beat": "defeat", "date": "1961-04-17", "what": "The invasion fails (in Cuba, off-map)"},
+        {"beat": "homecoming", "date": "1962-12-29", "what": "JFK receives the brigade's flag at the Orange Bowl"}
+      ],
+      "do_not_show": ["the invasion fleet leaving from Miami: it did not; the landing force sailed from Central America (widely documented, not re-verified here)"],
+      "locations": [
+        {"name": "Miami International Airport", "lat": 25.7959, "lon": -80.287},
+        {"name": "Orange Bowl", "lat": 25.7781, "lon": -80.2197},
+        {"name": "JM/WAVE, former NAS Richmond", "lat": 25.6075, "lon": -80.396, "in_main_frame": false}
+      ],
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/JMWAVE", "https://en.wikipedia.org/wiki/Brigade_2506", "https://www.cia.gov/stories/story/the-bay-of-pigs-invasion/", "https://www.jfklibrary.org/asset-viewer/archives/jfkwhp-1962-12-29-a", "https://spotterup.com/jmwave-the-secret-cold-war-cia-station-in-miami/"]
+    },
+    {
+      "id": "W13_cuban_missile_crisis",
+      "title": "Cuban Missile Crisis: 90 miles from war",
+      "years": [1962, 1979],
+      "date": "1962-10",
+      "type": "military build-up, no shots fired",
+      "in_main_frame": "mostly off-map (Homestead is about 40 km SSW of downtown). Show jets flying south past the city and missile batteries on the edges",
+      "sides": [
+        {"side": "US Air Force (Homestead AFB)", "aircraft": "Over 181 F-100 Super Sabre fighter-bombers (31st TFW plus the 401st and 474th TFWs; '1st Provisional Air Division', over 1,600 pilots and maintainers); more than 30 F-100Ds parked in irregular patterns, fuelled, on constant alert to scramble toward Cuba; F-102 Delta Dagger interceptors; RF-101 Voodoo recon jets flying over Cuba; transports C-47, C-54, C-123, C-130; HU-16 amphibians. SAC bombers of the 19th BW were dispersed away from Homestead", "confidence": "high"},
+        {"side": "US Army", "forces": "A tent city of more than 10,000 Army troops at Homestead; 13th Artillery Group HQ arrived Oct 30, 1962. HAWK anti-aircraft batteries from October 1962 (HM-12 Old Cutler Road, HM-39 North Canal Drive, HM-59, HM-60, HM-84); Nike Hercules sites built after the crisis (HM-03 NW of Carol City, HM-40 North Key Largo, HM-66, HM-69 completed 1964, HM-95 SW Miami), active until 1979. The South Florida Nike sites used above-ground missile 'barns' because the water table is too high for bunkers", "confidence": "high"},
+        {"side": "US Coast Guard", "forces": "Air operations supplemented from the former Marine Corps Air Station at Opa-locka", "confidence": "high"}
+      ],
+      "beats": [
+        {"beat": "discovery", "date": "1962-10-14", "what": "U-2 photographs missile sites in Cuba"},
+        {"beat": "build-up", "date": "1962-10", "what": "Jets pour into Homestead; convoys; tents; HAWK launchers appear"},
+        {"beat": "visit", "date": "1962-11-26", "what": "JFK visits Homestead AFB to view the build-up"},
+        {"beat": "legacy", "year": 1964, "what": "Permanent Nike Hercules sites (HM-69 completed 1964; the batteries stayed until 1979)"}
+      ],
+      "effects": ["pairs of swept-wing F-100 jets climbing south over the bay", "delta-wing F-102s", "missile launchers on the city's edge", "tent rows", "tense night sky"],
+      "do_not_show": ["missiles being fired or jets attacking: no shots were fired", "Soviet aircraft over Miami"],
+      "locations": [
+        {"name": "Homestead AFB", "lat": 25.4885, "lon": -80.3836, "in_main_frame": false},
+        {"name": "Nike HM-69 (Everglades)", "lat": 25.3956, "lon": -80.6647, "in_main_frame": false},
+        {"name": "HAWK HM-12 (Old Cutler Road)", "lat": 25.63, "lon": -80.3, "approx": "rough, verify"},
+        {"name": "Nike HM-95 (SW Miami)", "lat": 25.7, "lon": -80.46, "approx": "rough, verify"}
+      ],
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Homestead_Air_Reserve_Base", "https://historynet.com/forgotten-casualty-cuban-missile-crisis/", "http://www.themilitarystandard.com/missile/nike/homestead-fl.php", "https://en.wikipedia.org/wiki/Nike_Missile_Site_HM-69", "https://cgaviationhistory.org/1962-the-cuban-missile-crisis/", "https://www.wlrn.org/this-miami-life/2012-10-24/how-the-cuban-missile-crisis-shaped-miami", "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis"]
+    },
+    {
+      "id": "W14_civil_unrest",
+      "title": "Civil unrest (1968, 1980, 1982, 1989)",
+      "type": "civil unrest, NOT war. Animate respectfully: no combat choreography",
+      "in_main_frame": "Overtown yes; Liberty City is just north of the main frame",
+      "events": [
+        {"dates": "1968-08-07/08", "place": "Liberty City (during the Republican National Convention in Miami Beach)", "facts": "3 deaths, 29 injuries, 200 arrests"},
+        {"dates": "1980-05-17/20", "place": "Overtown, Liberty City, Brownsville, West Coconut Grove and nearby", "facts": "Began after the acquittal of officers in Arthur McDuffie's death. 18 killed, 350-370 injured, 600-787 arrested, over $100 million in damage. National Guard: 500, then 1,000, then 2,500 more (3,500 total). Curfew 8 p.m. to 6 a.m."},
+        {"dates": "1982-12-28/30", "place": "Overtown", "facts": "Began after a police shooting; 1 additional death"},
+        {"dates": "1989-01-16/21", "place": "Overtown and Liberty City", "facts": "Began after officer William Lozano shot motorcyclist Clement Lloyd; passenger Allen Blanchard died the next day; no deaths in the riot; 13 businesses burned"}
+      ],
+      "suggested_treatment": "Smoke columns rising from the neighbourhood, streets going dark for the curfew, National Guard trucks on the arterials, a sober caption. No figures fighting.",
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/1968_Miami_riot", "https://en.wikipedia.org/wiki/1980_Miami_riots", "https://en.wikipedia.org/wiki/1982_Overtown_riot", "https://en.wikipedia.org/wiki/1989_Miami_riot"]
+    },
+    {
+      "id": "W15_mariel",
+      "title": "Mariel boatlift",
+      "years": [1980, 1980],
+      "type": "mass maritime migration (not military)",
+      "in_main_frame": "arrival scenes only; most boats landed at Key West, off-map",
+      "facts": "April 15 to October 31, 1980. About 125,000 Cubans in about 1,700 boats from Mariel Harbor, Cuba; the first boat docked at Key West on April 21. About 25,000 Haitians also arrived in the same period. In Miami, the Orange Bowl was used as a temporary refuge, then a tent city under I-95 near downtown (closed late September 1980)",
+      "approach": {"medium": "sea", "from": "Mariel, Cuba", "to": "Key West mainly, then overland to Miami"},
+      "effects": ["flotilla of small overloaded boats (inset map or horizon shot)", "tents in the Orange Bowl and under the I-95 overpass"],
+      "locations": [{"name": "Orange Bowl", "lat": 25.7781, "lon": -80.2197}, {"name": "Tent City under I-95 near downtown", "lat": 25.772, "lon": -80.2, "approx": "rough, verify"}],
+      "confidence": "high",
+      "sources": ["https://en.wikipedia.org/wiki/Mariel_boatlift", "https://www.floridamemory.com/items/show/332816", "https://www.washingtonpost.com/archive/politics/1980/09/22/for-750-cuban-refugees-united-states-is-a-tent-city-under-the-expressway/4835cb0a-de8f-4be3-92d2-843bdcb50ea0/", "https://www.upi.com/Archives/1980/09/26/Miami-is-closing-down-the-controversial-Tent-City-where/4956338788800/"]
+    }
+  ],
+  "aircraft_and_vessel_catalogue": {
+    "_about": "Every vehicle type the sources place in or near Miami, for building low-poly models. Keep them small, since the reference videos use toy-scale armies.",
+    "ships_boats": [
+      {"type": "Tequesta dugout canoe", "era": "500 BC-1763"},
+      {"type": "Spanish brigantine / small sailing ship", "era": "1566-1743"},
+      {"type": "US Navy schooner (Motto, Pee Dee, Flirt)", "era": "1836-1842"},
+      {"type": "Army/Navy expedition canoe (Harney used 16)", "era": "1839-1842"},
+      {"type": "Civil War steam gunboat (blockade)", "era": "1861-1865"},
+      {"type": "Flagler-era coastal steamship", "era": "1896-1920s"},
+      {"type": "Prinz Valdemar: 241 ft steel-hulled schooner, capsized in the channel", "era": "Jan 1926"},
+      {"type": "Mexican tanker Potrero del Llano", "era": "May 1942"},
+      {"type": "German Type VII U-boat (U-564; surfaced/periscope)", "era": "1942"},
+      {"type": "US Navy wooden subchaser (SC) and PC patrol craft", "era": "1942-1945"},
+      {"type": "CIA mother ship with fast raiding boats", "era": "1961-1963"},
+      {"type": "Mariel refugee boats: fishing boats, pleasure craft", "era": "1980"},
+      {"type": "Cruise ships at Dodge Island", "era": "1964-present"}
+    ],
+    "aircraft": [
+      {"type": "Pan Am flying boats at Dinner Key", "era": "1934-1940s"},
+      {"type": "Navy K-class blimp", "era": "Oct 1942-1945"},
+      {"type": "Brewster F2A Buffalo / Grumman F4F Wildcat (fighters, training)", "era": "WWII, NAS Miami"},
+      {"type": "Douglas SBD Dauntless / Grumman TBF Avenger (training)", "era": "WWII, NAS Miami"},
+      {"type": "C-46 / C-54 / C-87 transports", "era": "WWII, Homestead & 36th St"},
+      {"type": "B-26 Invader in fake Cuban markings (one aircraft)", "era": "Apr 15, 1961, MIA"},
+      {"type": "F-100 Super Sabre (swept-wing fighter-bomber)", "era": "Oct 1962, Homestead"},
+      {"type": "F-102 Delta Dagger (delta-wing interceptor)", "era": "Oct 1962, Homestead"},
+      {"type": "RF-101 Voodoo (recon jet)", "era": "Oct 1962"},
+      {"type": "C-130 / C-123 transports", "era": "Oct 1962"}
+    ],
+    "ground_military": [
+      {"type": "Spanish soldiers with arquebus", "era": "1567"},
+      {"type": "US soldiers (Seminole Wars), blockhouses", "era": "1836-1858"},
+      {"type": "2 heavy coastal guns in an earth bunker (Fort Brickell)", "era": "1898"},
+      {"type": "Volunteer infantry in white tents (Camp Miami)", "era": "1898"},
+      {"type": "AAF recruits in formation on beach and golf course", "era": "1942-1945"},
+      {"type": "HAWK launcher (3 missiles each, 6 launchers per battery)", "era": "1962-1979"},
+      {"type": "Nike Hercules launchers in above-ground 'barns'", "era": "1964-1979"},
+      {"type": "National Guard trucks (curfew)", "era": "1980"}
+    ]
+  }
+}
