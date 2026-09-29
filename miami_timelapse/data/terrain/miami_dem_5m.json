@@ -1,0 +1,43 @@
+{
+  "crs": "EPSG:32617",
+  "resolution_m": 5,
+  "width": 2430,
+  "height": 3780,
+  "bounds_utm": [
+    576175.9595691299,
+    2837143.501581797,
+    588329.8611713366,
+    2856045.261053717
+  ],
+  "bbox_wgs84_SWNE": [
+    25.65,
+    -80.24,
+    25.82,
+    -80.12
+  ],
+  "min_m": -18.158288955688477,
+  "max_m": 17.53597640991211,
+  "vertical_datum": "NAVD88 (metres)",
+  "png_to_metres": "h = -18.1583 + value/65535 * 35.6943",
+  "coverage_pct": {
+    "sea_fill": 17.28,
+    "land_lidar_2023": 35.28,
+    "topobathy_lidar_2019": 0.11,
+    "noaa_S200_bathymetry": 47.32
+  },
+  "thresholds": {
+    "land_min_m": 0.6,
+    "water_max_m": 0.3,
+    "mllw_to_navd88_m": -0.3,
+    "sea_fill_min_m": -15.0,
+    "ocean_slope": 0.01,
+    "inland_water_depth_m": 2.0
+  },
+  "sources": [
+    "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/FL_MiamiDade_D23/",
+    "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/FL_TopobathyFLKeysNOAA_2019_D20/",
+    "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/FL_Peninsular_FDEM_2018_D19_DRRA/",
+    "https://www.ngdc.noaa.gov/thredds/fileServer/regional/biscayne_bay_S200_2018.nc"
+  ],
+  "note": "Present-day terrain. Pre-1905 coastline/islands must be edited using historical shorelines (see README)."
+}

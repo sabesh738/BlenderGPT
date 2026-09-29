@@ -1,0 +1,674 @@
+{
+ "_about": "Historical sources for reconstructing buildings and coastline that no longer exist. Modern parcel data only covers buildings standing today.",
+ "aerial_photos": {
+  "source": "UF / FDEP GeoPlan Historic Aerials (1937-1985)",
+  "service": "https://services.arcgis.com/LBbVDC0hKPAnLRpO/arcgis/rest/services/Historic_Aerials/FeatureServer",
+  "note": "Scanned contact prints (about 630 px previews), NOT georeferenced: center point only. Use as reference when hand-placing vanished blocks (e.g. Overtown before I-95).",
+  "count_by_year": {
+   "1952": 16,
+   "1963": 5,
+   "1970": 10
+  },
+  "photos": [
+   {
+    "year": 1952,
+    "flight": "12025_1952_4H",
+    "tile": 18,
+    "center_lat": 25.82279,
+    "center_lon": -80.22155,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00010/12025_1952_4H_18.jpg"
+   },
+   {
+    "year": 1952,
+    "flight": "12025_1952_4H",
+    "tile": 19,
+    "center_lat": 25.80916,
+    "center_lon": -80.22185,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00010/12025_1952_4H_19.jpg"
+   },
+   {
+    "year": 1952,
+    "flight": "12025_1952_4H",
+    "tile": 20,
+    "center_lat": 25.79305,
+    "center_lon": -80.22192,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00010/12025_1952_4H_20.jpg"
+   },
+   {
+    "year": 1952,
+    "flight": "12025_1952_4H",
+    "tile": 21,
+    "center_lat": 25.77935,
+    "center_lon": -80.21997,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00010/12025_1952_4H_21.jpg"
+   },
+   {
+    "year": 1952,
+    "flight": "12025_1952_4H",
+    "tile": 22,
+    "center_lat": 25.76506,
+    "center_lon": -80.21772,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00010/12025_1952_4H_22.jpg"
+   },
+   {
+    "year": 1952,
+    "flight": "12025_1952_4H",
+    "tile": 23,
+    "center_lat": 25.75017,
+    "center_lon": -80.22,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00010/12025_1952_4H_23.jpg"
+   },
+   {
+    "year": 1952,
+    "flight": "12025_1952_4H",
+    "tile": 24,
+    "center_lat": 25.73746,
+    "center_lon": -80.22204,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00010/12025_1952_4H_24.jpg"
+   },
+   {
+    "year": 1952,
+    "flight": "12025_1952_4H",
+    "tile": 45,
+    "center_lat": 25.81887,
+    "center_lon": -80.12822,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00010/12025_1952_4H_45.jpg"
+   },
+   {
+    "year": 1952,
+    "flight": "12025_1952_4H",
+    "tile": 46,
+    "center_lat": 25.80638,
+    "center_lon": -80.12785,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00010/12025_1952_4H_46.jpg"
+   },
+   {
+    "year": 1952,
+    "flight": "12025_1952_4H",
+    "tile": 64,
+    "center_lat": 25.7075,
+    "center_lon": -80.15266,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00010/12025_1952_4H_64.jpg"
+   },
+   {
+    "year": 1952,
+    "flight": "12025_1952_4H",
+    "tile": 67,
+    "center_lat": 25.74956,
+    "center_lon": -80.15137,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00010/12025_1952_4H_67.jpg"
+   },
+   {
+    "year": 1952,
+    "flight": "12025_1952_4H",
+    "tile": 102,
+    "center_lat": 25.81917,
+    "center_lon": -80.19247,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00010/12025_1952_4H_102.jpg"
+   },
+   {
+    "year": 1952,
+    "flight": "12025_1952_4H",
+    "tile": 103,
+    "center_lat": 25.80466,
+    "center_lon": -80.19152,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00010/12025_1952_4H_103.jpg"
+   },
+   {
+    "year": 1952,
+    "flight": "12025_1952_4H",
+    "tile": 104,
+    "center_lat": 25.78615,
+    "center_lon": -80.19203,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00010/12025_1952_4H_104.jpg"
+   },
+   {
+    "year": 1952,
+    "flight": "12025_1952_4H",
+    "tile": 105,
+    "center_lat": 25.7723,
+    "center_lon": -80.19142,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00010/12025_1952_4H_105.jpg"
+   },
+   {
+    "year": 1952,
+    "flight": "12025_1952_4H",
+    "tile": 106,
+    "center_lat": 25.75942,
+    "center_lon": -80.19041,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00010/12025_1952_4H_106.jpg"
+   },
+   {
+    "year": 1963,
+    "flight": "12025_1963_3DD",
+    "tile": 80,
+    "center_lat": 25.79873,
+    "center_lon": -80.21908,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00025/12025_1963_3DD_80.jpg"
+   },
+   {
+    "year": 1963,
+    "flight": "12025_1963_3DD",
+    "tile": 82,
+    "center_lat": 25.76607,
+    "center_lon": -80.21431,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00025/12025_1963_3DD_82.jpg"
+   },
+   {
+    "year": 1963,
+    "flight": "12025_1963_3DD",
+    "tile": 84,
+    "center_lat": 25.73979,
+    "center_lon": -80.21388,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00025/12025_1963_3DD_84.jpg"
+   },
+   {
+    "year": 1963,
+    "flight": "12025_1963_3DD",
+    "tile": 102,
+    "center_lat": 25.76153,
+    "center_lon": -80.18993,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00025/12025_1963_3DD_102.jpg"
+   },
+   {
+    "year": 1963,
+    "flight": "12025_1963_3DD",
+    "tile": 104,
+    "center_lat": 25.79429,
+    "center_lon": -80.18815,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00025/12025_1963_3DD_104.jpg"
+   },
+   {
+    "year": 1970,
+    "flight": "12025_1970_1MM",
+    "tile": 23,
+    "center_lat": 25.78861,
+    "center_lon": -80.15919,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00028/12025_1970_1MM_23.jpg"
+   },
+   {
+    "year": 1970,
+    "flight": "12025_1970_1MM",
+    "tile": 23,
+    "center_lat": 25.78464,
+    "center_lon": -80.19365,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00028/12025_1970_1MM_23.jpg"
+   },
+   {
+    "year": 1970,
+    "flight": "12025_1970_1MM",
+    "tile": 24,
+    "center_lat": 25.76238,
+    "center_lon": -80.19212,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00028/12025_1970_1MM_24.jpg"
+   },
+   {
+    "year": 1970,
+    "flight": "12025_1970_1MM",
+    "tile": 27,
+    "center_lat": 25.73042,
+    "center_lon": -80.23846,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00028/12025_1970_1MM_27.jpg"
+   },
+   {
+    "year": 1970,
+    "flight": "12025_1970_1MM",
+    "tile": 28,
+    "center_lat": 25.75632,
+    "center_lon": -80.2233,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00028/12025_1970_1MM_28.jpg"
+   },
+   {
+    "year": 1970,
+    "flight": "12025_1970_1MM",
+    "tile": 28,
+    "center_lat": 25.75669,
+    "center_lon": -80.22798,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00028/12025_1970_1MM_28.jpg"
+   },
+   {
+    "year": 1970,
+    "flight": "12025_1970_1MM",
+    "tile": 29,
+    "center_lat": 25.7864,
+    "center_lon": -80.22301,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00028/12025_1970_1MM_29.jpg"
+   },
+   {
+    "year": 1970,
+    "flight": "12025_1970_1MM",
+    "tile": 29,
+    "center_lat": 25.78643,
+    "center_lon": -80.22398,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00028/12025_1970_1MM_29.jpg"
+   },
+   {
+    "year": 1970,
+    "flight": "12025_1970_1MM",
+    "tile": 30,
+    "center_lat": 25.81532,
+    "center_lon": -80.22504,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00028/12025_1970_1MM_30.jpg"
+   },
+   {
+    "year": 1970,
+    "flight": "12025_1970_1MM",
+    "tile": 30,
+    "center_lat": 25.81558,
+    "center_lon": -80.22285,
+    "jpeg": "https://ufdcimages.uflib.ufl.edu/UF/00/07/17/38/00028/12025_1970_1MM_30.jpg"
+   }
+  ]
+ },
+ "shoreline_surveys": {
+  "source": "NOAA NGS T-sheets via https://nsde.ngs.noaa.gov/ (T-sheet viewer)",
+  "note": "Georeferenced scans (jpg/tif + world file) live on nosimagery.noaa.gov, which this cloud environment's network policy blocks; download them in a browser. Vector shorelines for EC19B01/EC19B03/FL3502/FL4501/PH7113 are already in data/historical/.",
+  "surveys": [
+   {
+    "year": 1883,
+    "code": "T-01510",
+    "scale": 20000,
+    "description": "East coast of Florida from Biscayne Bay northward, Broward and Dade Counties, FL",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t01510_dd.jpg",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t01510_dd.jgw",
+    "vector_project": "EC19A01A",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/EC19A01A.zip"
+   },
+   {
+    "year": 1884,
+    "code": "T-01657",
+    "scale": 40000,
+    "description": "South End of Lake Worth and Hillsboro Inlet, Broward and Dade Counties, FL",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t01657_dd.jpg",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t01657_dd.jgw",
+    "vector_project": "EC19A01B",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/EC19A01B.zip"
+   },
+   {
+    "year": 1884,
+    "code": "T-01656",
+    "scale": 40000,
+    "description": "Hillsboro and New River Inlets, Broward and Dade Counties, FL",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t01656_dd.jpg",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t01656_dd.jgw",
+    "vector_project": "EC19A01B",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/EC19A01B.zip"
+   },
+   {
+    "year": 1913,
+    "code": "T-03375",
+    "scale": 20000,
+    "description": "Indian Creek to Cape Florida, Dade County, FL",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t03375_dd.jpg",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t03375_dd.jgw",
+    "vector_project": "EC19B01",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/EC19B01.zip"
+   },
+   {
+    "year": 1927,
+    "code": "T-04529",
+    "scale": 20000,
+    "description": "East Coast Miami Beach, Dade County, FL",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t04529_dd.jpg",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t04529_dd.jgw",
+    "vector_project": "EC19B03",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/EC19B03.zip"
+   },
+   {
+    "year": 1928,
+    "code": "T-04528",
+    "scale": 20000,
+    "description": "Vicinity of Miami, Dade County, FL",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t04528_dd.jpg",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t04528_dd.jgw",
+    "vector_project": "EC19B03",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/EC19B03.zip"
+   },
+   {
+    "year": 1935,
+    "code": "T-05626",
+    "scale": 10000,
+    "description": "South Miami",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t05626_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t05626_dd.tfw",
+    "vector_project": "FL3502",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/FL3502.zip"
+   },
+   {
+    "year": 1935,
+    "code": "T-05628",
+    "scale": 10000,
+    "description": "Miami - Coral Gables",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t05628_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t05628_dd.tfw",
+    "vector_project": "FL3502",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/FL3502.zip"
+   },
+   {
+    "year": 1935,
+    "code": "T-05629",
+    "scale": 10000,
+    "description": "Miami and Miami Beach",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t05629_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t05629_dd.tfw",
+    "vector_project": "FL3502",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/FL3502.zip"
+   },
+   {
+    "year": 1935,
+    "code": "T-05627",
+    "scale": 10000,
+    "description": "Key Biscayne and Virginia Key",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t05627_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t05627_dd.tfw",
+    "vector_project": "FL3502",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/FL3502.zip"
+   },
+   {
+    "year": 1935,
+    "code": "T-05631",
+    "scale": 10000,
+    "description": "North Miami Beach and Vicinity",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t05631_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t05631_dd.tfw",
+    "vector_project": "FL3502",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/FL3502.zip"
+   },
+   {
+    "year": 1942,
+    "code": "T-08436",
+    "scale": 20000,
+    "description": "Richmond, Dade County, nearby Miami, FL",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08436_dd.jpg",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t8436_dd.jgw",
+    "vector_project": "CS312",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/CS312.zip"
+   },
+   {
+    "year": 1945,
+    "code": "T-08432",
+    "scale": 20000,
+    "description": "Hialeah, Miami-Dade County, nearby Miami, FL",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08432_dd.jpg",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08432_dd.jgw",
+    "vector_project": "CS312",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/CS312.zip"
+   },
+   {
+    "year": 1945,
+    "code": "T-08435",
+    "scale": 20000,
+    "description": "South Miami, Dade County, nearby Hialeah, FL",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08435_dd.jpg",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t8435_dd.jgw",
+    "vector_project": "CS312",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/CS312.zip"
+   },
+   {
+    "year": 1945,
+    "code": "T-08596",
+    "scale": 10000,
+    "description": "Miami - Miami Beach",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08596_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08596_dd.tfw",
+    "vector_project": "FL4501",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/FL4501.zip"
+   },
+   {
+    "year": 1945,
+    "code": "T-08434",
+    "scale": 20000,
+    "description": "Biscayne Bay, Miami-Dade County, nearby Miami, FL",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08434_dd.jpg",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t8434_dd.jgw",
+    "vector_project": "CS312",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/CS312.zip"
+   },
+   {
+    "year": 1945,
+    "code": "T-08640",
+    "scale": 20000,
+    "description": "Biscayne Bay, Dade County, nearby Miami, FL",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08640_dd.jpg",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t8640_dd.jgw",
+    "vector_project": "CS312",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/CS312.zip"
+   },
+   {
+    "year": 1945,
+    "code": "T-08431",
+    "scale": 20000,
+    "description": "Opa-Locka, Broward County and Miami-Dade County, nearby Miami, FL",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08431_dd.jpg",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08431_dd.jgw",
+    "vector_project": "CS312",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/CS312.zip"
+   },
+   {
+    "year": 1945,
+    "code": "T-08430",
+    "scale": 20000,
+    "description": "North Miami, Broward County and Miami-Dade County, nearby Miami, FL",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08430_dd.jpg",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08430_dd.jgw",
+    "vector_project": "CS312",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/CS312.zip"
+   },
+   {
+    "year": 1945,
+    "code": "T-08594",
+    "scale": 10000,
+    "description": "North Miami Beach and Vicinity",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08594_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08594_dd.tfw",
+    "vector_project": "FL4501",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/FL4501.zip"
+   },
+   {
+    "year": 1946,
+    "code": "T-08437",
+    "scale": 20000,
+    "description": "Goulds, Dade County, nearby Homestead, FL",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08437_dd.jpg",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t8437_dd.jgw",
+    "vector_project": "CS312",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/CS312.zip"
+   },
+   {
+    "year": 1946,
+    "code": "T-08438",
+    "scale": 20000,
+    "description": "Perrine, Dade County, nearby Miami, FL",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08438_dd.jpg",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t8438_dd.jgw",
+    "vector_project": "CS312",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/CS312.zip"
+   },
+   {
+    "year": 1947,
+    "code": "T-08597",
+    "scale": 10000,
+    "description": "Miami - Coral Gables",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08597_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08597_dd.tfw",
+    "vector_project": "FL4501",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/FL4501.zip"
+   },
+   {
+    "year": 1947,
+    "code": "T-08598",
+    "scale": 10000,
+    "description": "Key Biscayne - Virginia Key",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08598_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08598_dd.tfw",
+    "vector_project": "FL4501",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/FL4501.zip"
+   },
+   {
+    "year": 1947,
+    "code": "T-08595",
+    "scale": 10000,
+    "description": "Little River - Miami Beach and Vicinity",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08595_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/t08595_dd.tfw",
+    "vector_project": "FL4501",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/FL4501.zip"
+   },
+   {
+    "year": 1974,
+    "code": "TP-00433",
+    "scale": 10000,
+    "description": "Elliot Key, Dade County",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00433_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00433_dd.tfw",
+    "vector_project": "PH7113",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/PH7113.zip"
+   },
+   {
+    "year": 1975,
+    "code": "TP-00422",
+    "scale": 10000,
+    "description": "Miami, Dade County",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00422_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00422_dd.tfw",
+    "vector_project": "PH7113",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/PH7113.zip"
+   },
+   {
+    "year": 1975,
+    "code": "TP-00424",
+    "scale": 10000,
+    "description": "Coral Gables, Dade County",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00424_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00424_dd.tfw",
+    "vector_project": "PH7113",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/PH7113.zip"
+   },
+   {
+    "year": 1975,
+    "code": "TP-00425",
+    "scale": 10000,
+    "description": "Virginia Key to Key Biscayne, Dade County",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00425_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00425_dd.tfw",
+    "vector_project": "PH7113",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/PH7113.zip"
+   },
+   {
+    "year": 1975,
+    "code": "TP-00426",
+    "scale": 10000,
+    "description": "South Miami to Cutler, Dade County",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00426_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00426_dd.tfw",
+    "vector_project": "PH7113",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/PH7113.zip"
+   },
+   {
+    "year": 1975,
+    "code": "TP-00429",
+    "scale": 10000,
+    "description": "Cutler Ridge to Fender Point, Dade County",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00429_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00429_dd.tfw",
+    "vector_project": "PH7113",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/PH7113.zip"
+   },
+   {
+    "year": 1975,
+    "code": "TP-00430",
+    "scale": 10000,
+    "description": "Ragged Keys, Dade County",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00430_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00430_dd.tfw",
+    "vector_project": "PH7113",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/PH7113.zip"
+   },
+   {
+    "year": 1975,
+    "code": "TP-00432",
+    "scale": 10000,
+    "description": "Turkey Point, Dade County",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00432_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00432_dd.tfw",
+    "vector_project": "PH7113",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/PH7113.zip"
+   },
+   {
+    "year": 1975,
+    "code": "TP-00423",
+    "scale": 10000,
+    "description": "Miami Beach to Virginia Key, Dade County",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00423_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00423_dd.tfw",
+    "vector_project": "PH7113",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/PH7113.zip"
+   },
+   {
+    "year": 1975,
+    "code": "TP-00428",
+    "scale": 10000,
+    "description": "Cape Florida to Soldier Key, Dade County",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00428_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00428_dd.tfw",
+    "vector_project": "PH7113",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/PH7113.zip"
+   },
+   {
+    "year": 1975,
+    "code": "TP-00419",
+    "scale": 10000,
+    "description": "Hollywood to North Miami Beach, Broward County and Dade County",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00419_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00419_dd.tfw",
+    "vector_project": "PH7113",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/PH7113.zip"
+   },
+   {
+    "year": 1975,
+    "code": "TP-00420",
+    "scale": 10000,
+    "description": "North Miami to Normandy Isle, Dade County",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00420_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00420_dd.tfw",
+    "vector_project": "PH7113",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/PH7113.zip"
+   },
+   {
+    "year": 1976,
+    "code": "TP-00427",
+    "scale": 10000,
+    "description": "Biscayne Flats, Dade County",
+    "georeferenced_scan": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00427_dd.tif",
+    "world_file": "https://nosimagery.noaa.gov/images/shoreline_surveys/scans/tp00427_dd.tfw",
+    "vector_project": "PH7113",
+    "vector_download": "https://nsde.ngs.noaa.gov/downloads/PH7113.zip"
+   }
+  ]
+ },
+ "sanborn_maps": {
+  "source": "Library of Congress, public domain",
+  "collection": "https://www.loc.gov/collections/sanborn-maps/?fa=location%3Aflorida%7Clocation%3Amiami&sb=date",
+  "editions": [
+   "1899 (May)",
+   "1903 (April, 10 sheets)",
+   "1906 (May, 14 sheets)",
+   "1910 (April, 20 sheets)",
+   "1914 (August, 40 sheets)",
+   "1918 (March, 44 sheets)",
+   "1921 (123 sheets)",
+   "Miami Beach 1951"
+  ],
+  "note": "Building-by-building footprints, storeys and materials for early downtown; not georeferenced."
+ },
+ "other": [
+  {
+   "name": "1925 aerial survey of Miami (Miami-Dade Public Library System digital collections, ~300 negatives with index map)",
+   "url": "https://www.mdpls.org/dc-blog-twentytwo-november"
+  },
+  {
+   "name": "FDOT aerial photography archive (1940s-present)",
+   "url": "https://www.fdot.gov/gis/aerialmain.shtm"
+  }
+ ]
+}

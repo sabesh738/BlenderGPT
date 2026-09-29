@@ -1,0 +1,8 @@
+# Raw downloads: rebuild with scripts/fetch_*.py
+data/buildings/footprints_raw.geojson
+data/buildings/parcels_raw.geojson
+data/buildings/overture_buildings.geojson
+data/buildings/buildings.geojson
+data/historical/shorelines/*/
+cache/
+*.log

@@ -1,0 +1,106 @@
+{
+  "buildings": 47797,
+  "height_county": 1971,
+  "height_curated": 1,
+  "height_none": 3377,
+  "height_overture": 38719,
+  "height_overture_floors": 189,
+  "height_parcel_floors": 2028,
+  "height_podium_guess": 1512,
+  "year_condo_units": 2861,
+  "year_curated": 5,
+  "year_none": 3037,
+  "year_parcel": 41894,
+  "per_decade": {
+    "1900s": 34,
+    "1910s": 204,
+    "1920s": 6769,
+    "1930s": 8264,
+    "1940s": 7938,
+    "1950s": 6168,
+    "1960s": 2782,
+    "1970s": 3006,
+    "1980s": 1813,
+    "1990s": 1037,
+    "2000s": 2068,
+    "2010s": 3097,
+    "2020s": 1580
+  },
+  "tallest": [
+    {
+      "name": "Panorama Tower",
+      "height_m": 265.0,
+      "year": 2016
+    },
+    {
+      "name": "Aston Martin Residences",
+      "height_m": 249.0,
+      "year": 2024
+    },
+    {
+      "name": "Four Seasons Hotel Miami",
+      "height_m": 240.5,
+      "year": 2003
+    },
+    {
+      "name": "Southeast Financial Center",
+      "height_m": 233.0,
+      "year": 1984
+    },
+    {
+      "name": "830 Brickell",
+      "height_m": 220.0,
+      "year": 2024
+    },
+    {
+      "name": "One Thousand Museum",
+      "height_m": 216.0,
+      "year": 2019
+    },
+    {
+      "name": "Marquis Miami",
+      "height_m": 212.1,
+      "year": 2009
+    },
+    {
+      "name": null,
+      "height_m": 210.0,
+      "year": 2019
+    },
+    {
+      "name": "Bezel",
+      "height_m": 207.0,
+      "year": 2021
+    },
+    {
+      "name": "900 Biscayne Bay",
+      "height_m": 200.0,
+      "year": 2008
+    },
+    {
+      "name": "Wells Fargo Center",
+      "height_m": 197.0,
+      "year": 2010
+    },
+    {
+      "name": "Echo Brickell",
+      "height_m": 194.0,
+      "year": 2017
+    },
+    {
+      "name": "Mint",
+      "height_m": 192.3,
+      "year": 2009
+    },
+    {
+      "name": "Miami Tower",
+      "height_m": 191.0,
+      "year": 1987
+    },
+    {
+      "name": "Plaza on Brickell Tower I",
+      "height_m": 190.5,
+      "year": 2008
+    }
+  ]
+}

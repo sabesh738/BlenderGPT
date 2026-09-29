@@ -1,0 +1,36 @@
+{
+  "EC19B01": {
+    "survey_years": [
+      "1913"
+    ],
+    "features_in_frame": 13
+  },
+  "EC19B03": {
+    "survey_years": [
+      "1927"
+    ],
+    "features_in_frame": 400
+  },
+  "FL3502": {
+    "survey_years": [
+      "1935"
+    ],
+    "features_in_frame": 932
+  },
+  "FL4501": {
+    "survey_years": [
+      "1935",
+      "1945"
+    ],
+    "features_in_frame": 961
+  },
+  "PH7113": {
+    "survey_years": [
+      "1971",
+      "1972",
+      "1973",
+      "1975"
+    ],
+    "features_in_frame": 2022
+  }
+}
