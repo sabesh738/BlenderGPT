@@ -6,3 +6,10 @@ data/buildings/buildings.geojson
 data/historical/shorelines/*/
 cache/
 *.log
+# Act renders and generated Blender files
+act*/renders/
+act*/fonts/
+act*/*.blend
+act*/*.blend1
+act*/*.mp4
+act1/assets/landclass_5m.npy

@@ -1,0 +1,54 @@
+{
+  "bbox_SWNE": [
+    25.65,
+    -80.24,
+    25.82,
+    -80.12
+  ],
+  "lat0": 25.7715,
+  "lon0": -80.1885,
+  "kx": 100247.57313840161,
+  "ky": 110574.0,
+  "grid_5m": [
+    3760,
+    2406
+  ],
+  "grid_20m": [
+    940,
+    601
+  ],
+  "extent_m": {
+    "x_min": -5162.750016626692,
+    "x_max": 6866.958759980533,
+    "y_min": -13434.741000000116,
+    "y_max": 5362.839000000073
+  },
+  "terrain_20m_extent_m": {
+    "x_min": -5162.750016626692,
+    "x_max": 6856.959002061491,
+    "y_max": 5362.839000000073,
+    "y_min": -13434.741000000118
+  },
+  "classes": {
+    "0": "deep water",
+    "1": "bay",
+    "2": "sand",
+    "3": "mangrove",
+    "4": "hammock",
+    "5": "pine rockland",
+    "6": "glades/prairie"
+  },
+  "tree_counts": {
+    "pine": 23698,
+    "hammock": 131181,
+    "mangrove": 48918,
+    "palm": 11712
+  },
+  "land_masses_kept": [
+    "mainland",
+    "miami_beach",
+    "fisher_island",
+    "virginia_key",
+    "key_biscayne"
+  ]
+}
