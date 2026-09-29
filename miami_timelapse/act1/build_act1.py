@@ -35,9 +35,10 @@ GEO = json.loads((ASSETS / "act1_geo.json").read_text())
 
 FPS = 24
 VZ = 3.0            # vertical exaggeration (Miami is flat: the ridge is only ~7 m)
-S_HUT = 2.2         # object exaggeration, like the reference videos' toy-scale houses
-S_SHIP = 2.2
-S_PERSON = 4.0
+S_HUT = 4.0         # object exaggeration, like the reference videos' toy-scale houses
+S_SHIP = 3.2
+S_PERSON = 6.0
+S_CANOE = 5.0
 S_TREE = 1.8
 S_TOWER = 1.6
 rng = np.random.default_rng(1513)
@@ -375,7 +376,7 @@ def build_sky_and_sun():
         day = max(0.0, min(1.0, (math.degrees(el) + 2) / 10))
         sun_d.energy = 4.0 * day * (0.35 if k.get("storm") else 1.0)
         sun_d.keyframe_insert("energy", frame=f)
-        moon_d.energy = 0.25 * (1 - day)
+        moon_d.energy = 0.9 * (1 - day)
         moon_d.keyframe_insert("energy", frame=f)
         sky.sun_elevation = max(el, math.radians(-8))
         sky.sun_rotation = az
@@ -439,6 +440,13 @@ def build_camera():
     nt.links.new(rl.outputs["Mist"], mul.inputs[0])
     nt.links.new(mul.outputs[0], mix.inputs[0])
     nt.links.new(mix.outputs[0], comp.inputs["Image"])
+    for k in TL["lighting"]:
+        el = k.get("sun_elev", 18)
+        day = max(0.0, min(1.0, (el + 2) / 10))
+        dim = 0.45 if k.get("storm") else 1.0
+        fog = [0.05 + (c - 0.05) * day * dim for c in (0.74, 0.80, 0.86)]
+        mix.inputs[2].default_value = (*fog, 1)
+        mix.inputs[2].keyframe_insert("default_value", frame=fr(k["t"]))
     return cam
 
 
@@ -552,9 +560,14 @@ def model_lighthouse():
     b.cone(M["black"], 3.0, 3.0, 0.4, (0, 0, 20.0), seg=16)        # gallery
     b.cone(M["lamp"], 1.6, 1.6, 2.6, (0, 0, 20.4), seg=10)         # lantern glass
     b.cone(M["black"], 1.9, 0.2, 1.4, (0, 0, 23.0), seg=10)        # cap
-    for z in (5, 10, 15):
-        b.box(M["glow"], (0.4, 0.8, 1.4), (-2.9 + z * 0.045, 0, z))  # windows (glow when burning)
-    b.box(M["glow"], (0.4, 1.6, 2.4), (-3.3, 0, 1.2))               # door
+    for z in (5, 10, 15):                                           # windows on all four sides
+        r = 3.4 - (3.4 - 2.4) * z / 20.0                             # (glow when the tower burns)
+        for a in range(4):
+            ang = a * math.pi / 2
+            b.box(M["glow"], (0.5, 0.9, 1.5), (r * math.cos(ang), r * math.sin(ang), z), rot=ang)
+    for a in range(4):
+        ang = a * math.pi / 2
+        b.box(M["glow"], (0.5, 1.6, 2.4), (3.4 * math.cos(ang), 3.4 * math.sin(ang), 1.2), rot=ang)
     return b.obj("lighthouse", coll=collection("act1_lighthouse"))
 
 
@@ -716,7 +729,7 @@ def act1():
             tries += 1
             a, d = rng.uniform(0, 2 * math.pi), r * math.sqrt(rng.uniform(0, 1))
             x, y = cx + d * math.cos(a), cy + d * math.sin(a)
-            if height_m(x, y) < 0.6 or any((x - h[0]) ** 2 + (y - h[1]) ** 2 < 22 ** 2 for h in huts):
+            if height_m(x, y) < 0.6 or any((x - h[0]) ** 2 + (y - h[1]) ** 2 < 32 ** 2 for h in huts):
                 continue
             huts.append((x, y))
             n -= 1
@@ -771,7 +784,7 @@ def act1():
     coll_b = collection("act1_boats")
     mouth = Vector((*ll(25.7702, -80.1878), 0.3))
     for k in range(10):
-        c = instance(canoe, f"canoe{k}", mouth, scale=3.0, coll=coll_b)
+        c = instance(canoe, f"canoe{k}", mouth, scale=S_CANOE, coll=coll_b)
         keys, t = [], rng.uniform(0, 3)
         last = 95 if k < 3 else (52 if k >= 6 else 90)
         while t < last:
@@ -787,7 +800,7 @@ def act1():
              (25.7795, -80.2100), (25.7822, -80.2165), (25.7852, -80.2235)]
     rpts = [Vector((*water_snap(*ll(*p), depth=-0.3, radius=300), 0.3)) for p in river]
     for k in range(10):
-        c = instance(canoe, f"exodus{k}", rpts[0], scale=3.0, coll=coll_b)
+        c = instance(canoe, f"exodus{k}", rpts[0], scale=S_CANOE, coll=coll_b)
         t0 = 55.5 + k * 0.35
         key_path(c, [(t0 + j * 0.9, p) for j, p in enumerate(rpts)])
         key_visible(c, [(t0, t0 + 0.9 * len(rpts))])
@@ -817,7 +830,7 @@ def act1():
         key_path(s, [(t_in, entry[3]), (t_in + 1.5, anchor), (t_out - 2, anchor), (t_out, entry[2])])
         key_visible(s, [(t_in, t_out)])
     for k in range(6):  # 1763: canoes carry the last people out to the ship
-        c = instance(canoe, f"leave{k}", mouth, scale=3.0, coll=coll_b)
+        c = instance(canoe, f"leave{k}", mouth, scale=S_CANOE, coll=coll_b)
         t0 = 93 + k * 0.5
         key_path(c, [(t0, Vector((mouth.x, mouth.y, 0.3))), (t0 + 2.5, anchor + Vector((20 * k, 30, 0.3)))])
         key_visible(c, [(t0, t0 + 3)])
@@ -869,7 +882,7 @@ def act1():
             o = instance(cabin, f"cabin{k}", Vector((xy[0], xy[1], ground(*xy))), scale=1.6, coll=coll_p)
             key_visible(o, [(128 + k * 0.2, 175)], axis="z")
     for k in range(2):  # January 1836 evacuation boats
-        c = instance(canoe, f"evac{k}", mouth, scale=3.4, coll=coll_b)
+        c = instance(canoe, f"evac{k}", mouth, scale=S_CANOE, coll=coll_b)
         key_path(c, [(139.5 + k, Vector((mouth.x, mouth.y, 0.3))), (143 + k, sea(25.745, -80.180) + Vector((0, 0, 0.3)))])
         key_visible(c, [(139.5 + k, 144 + k)])
 
@@ -907,7 +920,7 @@ def act1():
     coll_a = collection("act1_attack")
     land_xy = land_snap(lh_p.x - 110, lh_p.y - 40) or (lh_p.x - 30, lh_p.y - 20)
     land_at = Vector((land_xy[0], land_xy[1], 0))
-    boat = instance(canoe, "raider_boat", lh_p, scale=3.6, coll=coll_a)
+    boat = instance(canoe, "raider_boat", lh_p, scale=S_CANOE, coll=coll_a)
     far = Vector((*water_snap(lh_p.x - 900, lh_p.y - 300), 0.3))
     near = Vector((*water_snap(land_at.x - 40, land_at.y - 20, depth=-0.3), 0.3))
     key_path(boat, [(142, far), (144.5, near), (160.5, near), (163.5, far)])
@@ -949,7 +962,7 @@ def act1():
     off2 = Vector((*water_snap(lh_p.x + 350, lh_p.y - 260, depth=-2), 0))
     key_path(mot, [(163.5, off1), (166, off2), (175, off2 + Vector((-10, 0, 0)))])
     key_visible(mot, [(163.5, 175)])
-    row = instance(canoe, "rowboat", off2, scale=3.0, coll=coll_a)
+    row = instance(canoe, "rowboat", off2, scale=S_CANOE, coll=coll_a)
     key_path(row, [(166, off2 + Vector((0, 0, 0.3))), (167.8, near)])
     key_visible(row, [(166, 168)])
 
