@@ -1,6 +1,6 @@
 # Miami — Walking Through Time: Era Bible
 
-First-person POV walk through Miami, 24 scenes, 6:54 at 30 fps (12,420 frames).
+First-person POV walk through Miami, from c. 2,000 years ago to **September 2026**: 23 scenes, 6:56 at 30 fps (12,480 frames), under the 7-minute limit.
 One continuous walk along a fixed route; the city transforms around you.
 
 **How to read confidence tags**
@@ -25,7 +25,7 @@ Cutaways (Miami Beach, Coral Gables, Homestead, Liberty City, Surfside) are shor
 
 ### The bookend [D]
 **Opening:** you arrive in a **dugout canoe** poled up the mouth of the Miami River at dawn (this replaces Tokyo's cart; a dugout is the Tequesta vehicle and is Miami's own). Your first hand-off is a **shell drinking cup** (shell cups are documented Tequesta tools [S]).
-**Closing:** you step onto a Brickell crosswalk, and the last hand-off is a **cafecito cup**. Shell cup → coffee cup: the same gesture across ~2,000 years.
+**Closing:** you walk down W Flagler St past the Museum of Miami's 1926-hurricane exhibit, step onto a Brickell crosswalk, and the last hand-off is a **cafecito cup**, then the title card **MIAMI 2026**. Shell cup → coffee cup: the same gesture across ~2,000 years.
 Alternate opening if the canoe is too costly: wade across seagrass flats onto the Brickell Point shell midden at first light.
 
 ### Transformation vocabulary [D]
@@ -229,22 +229,19 @@ structures grow/decay in time-lapse · vegetation reclaims · sun/moon sweep · 
 
 ---
 
-## 13. 17 April 1961 — Bay of Pigs, from Miami
-**Slot:** 3:26–3:42 (16 s) · **Type:** War · **Overlay:** 1960 census held · **Route:** a living room and a Little Havana street corner (interiors are fine)
+## 13. 1961–1962 — Bay of Pigs and the Cuban Missile Crisis
+**Slot:** 3:26–3:52 (26 s: ~10 s + ~16 s) · **Type:** War · **Overlay:** 1960 census held · **Route:** a Little Havana living room, then a street and church; **cutaway to Homestead AFB**; ends at the Orange Bowl
 
+### Beat A — 17 April 1961: Bay of Pigs, from Miami (~10 s)
 **Atmosphere [D]:** night vigil; lamplight, a TV's blue glow; near-monochrome warm-amber and steel-blue; static and slight tape hiss in the sound. Claustrophobic, close, few wide shots.
 **Sound [D]:** a Spanish-language **radio bulletin**, static, women praying the rosary, a child asking a question, a door opening.
 **Facts [S]:** **Brigade 2506** was a **CIA-sponsored group of Cuban exiles formed in 1960**. It landed at the **Bay of Pigs on 17 April 1961** and was **defeated within two days**. Fighting happened in Cuba, not in Miami: Miami's story is the **exile community waiting and grieving**. Do not show combat.
 **Explainers [D]:** an older man gripping a transistor radio; a woman with rosary beads; a teenager looking at a wall map.
 **Hand-off:** an older man **presses his transistor radio into your hands** so you hear the bulletin.
 **Text:** "17 April 1961 — Brigade 2506 lands at the Bay of Pigs" · "Defeated in two days; families wait in Miami".
-**Transformation out:** the radio's static turns into a military convoy engine.
+**Transformation:** the radio's static turns into a military convoy engine.
 
----
-
-## 14. October 1962 — The Cuban Missile Crisis
-**Slot:** 3:42–4:00 (18 s) · **Type:** War · **Overlay:** 1960 census held · **Route:** Little Havana street and church; **cutaway to Homestead AFB**; end at the Orange Bowl
-
+### Beat B — October 1962: the Cuban Missile Crisis (~16 s)
 **Atmosphere [D]:** heavy, still, oppressive: sun high, glare, then a hushed hazy dusk with jet contrails; palette = drab olive, white church, faded shirt-blue. Slightly desaturated and bleached.
 **Sound [D]:** convoy engines, jet fly-bys, church bells, school bell, a portable radio carrying a **presidential address** (Kennedy's 22 Oct 1962 television address, public record).
 **Facts [S]:** **Homestead AFB** swelled to **tens of thousands** of personnel, including a **tent city for 10,000+ Army troops**; **three air-defence missile battalions** arrived on **20 Oct 1962**, two days before Kennedy's broadcast. **Nike Hercules** batteries sat in the Everglades. **Fallout shelters** were stocked; **schoolchildren did duck-and-cover drills**; residents **filled gas tanks and stocked food**; **troops stayed at Lockhart Stadium**; the exile community gathered in **Little Havana** and **packed churches** to pray. **Transformation out (real event):** after the Bay of Pigs prisoners were released for **$53 million in baby food and medicine** (Dec 1962), **40,000 people** filled the **Orange Bowl**, where President Kennedy accepted a **replica of the brigade's battle flag** and said, **"I can assure you that this flag will be returned to the brigade in a free Havana"** (real quote). One source dates the ceremony to **Jan 1963**; commonly it is given as late Dec 1962. Show it as "Dec 1962–Jan 1963".
@@ -256,8 +253,8 @@ structures grow/decay in time-lapse · vegetation reclaims · sun/moon sweep · 
 
 ---
 
-## 15. 1980 — Mariel boatlift
-**Slot:** 4:00–4:16 (16 s) · **Type:** — · **Overlay:** 1980 census: 346,865 · **Route:** the Miami River **under the I-95 overpass** (exact Tent City location), then the Orange Bowl
+## 14. 1980 — Mariel boatlift
+**Slot:** 3:52–4:08 (16 s) · **Type:** — · **Overlay:** 1980 census: 346,865 · **Route:** the Miami River **under the I-95 overpass** (exact Tent City location), then the Orange Bowl
 
 **Atmosphere [D]:** blazing hot, concrete glare, deep shade under the overpass; sun 75°, near-white, high contrast; palette = bleached concrete, tent olive-green, sun-faded fabrics. **35 mm, slightly faded**, mid-grain.
 **Sound [D]:** boat engines idling, **Spanish voices calling names**, helicopters, generators, a PA announcing numbers, a child crying and then laughing.
@@ -270,8 +267,8 @@ structures grow/decay in time-lapse · vegetation reclaims · sun/moon sweep · 
 
 ---
 
-## 16. 17 May 1980 — The McDuffie verdict and the Liberty City riots
-**Slot:** 4:16–4:32 (16 s) · **Type:** Unrest · **Overlay:** 1980 census held · **Route:** **dawn-after cutaway** to a Liberty City/Overtown street. **Do not re-enact the violence**
+## 15. 17 May 1980 — The McDuffie verdict and the Liberty City riots
+**Slot:** 4:08–4:24 (16 s) · **Type:** Unrest · **Overlay:** 1980 census held · **Route:** **dawn-after cutaway** to a Liberty City/Overtown street. **Do not re-enact the violence**
 
 **Atmosphere [D]:** grey dawn, ash and smoke in the air, no direct sun; palette = charred black, wet-street grey, fading orange. Very still after a loud night. Subdued; **no music**.
 **Sound [D]:** a distant siren, a radio in a doorway, a broom on concrete, a National Guard truck idling, murmured conversation.
@@ -284,8 +281,8 @@ structures grow/decay in time-lapse · vegetation reclaims · sun/moon sweep · 
 
 ---
 
-## 17. 24 August 1992 — Hurricane Andrew
-**Slot:** 4:32–4:50 (18 s) · **Type:** Disaster · **Overlay:** 1990 census: 358,648 · **Route:** Brickell Ave (outer-band damage), then a **cutaway to Homestead / South Dade**
+## 16. 24 August 1992 — Hurricane Andrew
+**Slot:** 4:24–4:42 (18 s) · **Type:** Disaster · **Overlay:** 1990 census: 358,648 · **Route:** Brickell Ave (outer-band damage), then a **cutaway to Homestead / South Dade**
 
 **Atmosphere [D]:** Saturday night: **sickly yellow-green** sky, stuffy air, lines of headlights; then pitch-black night with a deafening wind; then the morning after, a hard bright sun on wrecked houses. The scene's colour arc is green → black → white glare.
 **Sound [D]:** a **TV weather broadcast** (WTVJ's Bryan Norcross broadcast for ~23 hours straight [S]; do **not** invent his words), hammering plywood, a supermarket line, then roaring wind, then chainsaws and helicopters.
@@ -298,8 +295,8 @@ structures grow/decay in time-lapse · vegetation reclaims · sun/moon sweep · 
 
 ---
 
-## 18. 12 May 1997 — The downtown tornado
-**Slot:** 4:50–5:06 (16 s) · **Type:** Disaster · **Overlay:** 1990 census held · **Route:** **exactly your route**: East Little Havana → over the Miami River and I-95 → downtown → Biscayne Bay → Miami Beach
+## 17. 12 May 1997 — The downtown tornado
+**Slot:** 4:42–4:58 (16 s) · **Type:** Disaster · **Overlay:** 1990 census held · **Route:** **exactly your route**: East Little Havana → over the Miami River and I-95 → downtown → Biscayne Bay → Miami Beach
 
 **Atmosphere [D]:** midday, a **dark thunderhead** with a green-grey underbelly and a narrow funnel; ordinary office life in the foreground. Mid-90s video look: slightly blown highlights, soft focus.
 **Sound [D]:** a low **freight-train roar**, distant sirens, people shouting "Look!", a car alarm; then a **waterspout** hiss on the bay.
@@ -312,8 +309,8 @@ structures grow/decay in time-lapse · vegetation reclaims · sun/moon sweep · 
 
 ---
 
-## 19. 2000 — Elián González and the recount
-**Slot:** 5:06–5:22 (16 s) · **Type:** — · **Overlay:** 2000 census: 362,470 · **Route:** Little Havana street (April); a downtown government corridor (November)
+## 18. 2000 — Elián González and the recount
+**Slot:** 4:58–5:14 (16 s) · **Type:** — · **Overlay:** 2000 census: 362,470 · **Route:** Little Havana street (April); a downtown government corridor (November)
 
 **Atmosphere [D]:** two beats. (a) **Pre-dawn April**: blue-black sky, sodium-yellow streetlights, then sunrise over a crowd; (b) **November**: harsh fluorescent light, cream walls, a tense hallway. Digital-video crispness; slightly cool.
 **Sound [D]:** chanting in Spanish, whistles, helicopters, a bullhorn; then in the corridor, shuffling feet, a ringing phone, a muffled shout.
@@ -327,8 +324,8 @@ structures grow/decay in time-lapse · vegetation reclaims · sun/moon sweep · 
 
 ---
 
-## 20. 24 October 2005 — Hurricane Wilma
-**Slot:** 5:22–5:40 (18 s) · **Type:** Disaster · **Overlay:** 2000 → 2010: 399,457 in the morph · **Route:** downtown streets after the storm
+## 19. 24 October 2005 — Hurricane Wilma
+**Slot:** 5:14–5:32 (18 s) · **Type:** Disaster · **Overlay:** 2000 → 2010: 399,457 in the morph · **Route:** downtown streets after the storm
 
 **Atmosphere [D]:** a brilliant hard blue morning-after, sun 45°, glare on broken glass, and then a **star-filled night with no city lights**. The contrast between the two is the point.
 **Sound [D]:** generators, chainsaws, honking at dark intersections, people arguing in a gas line, no air-conditioner hum.
@@ -342,8 +339,8 @@ structures grow/decay in time-lapse · vegetation reclaims · sun/moon sweep · 
 
 ---
 
-## 21. 2014–2016 — Sunny-day flooding and Brickell City Centre
-**Slot:** 5:40–5:56 (16 s) · **Type:** Disaster · **Overlay:** 2010 census held · **Route:** cutaway to Miami Beach (Alton Rd / 10th St / 5th St), then Brickell City Centre
+## 20. 2014–2016 — Sunny-day flooding and Brickell City Centre
+**Slot:** 5:32–5:48 (16 s) · **Type:** Disaster · **Overlay:** 2010 census held · **Route:** cutaway to Miami Beach (Alton Rd / 10th St / 5th St), then Brickell City Centre
 
 **Atmosphere [D]:** **cloudless, brilliantly clear** sky with **sea water on the street**: the irony is the image. Sun 60°, mirror-clean reflections; palette = crisp blue, glass, clean white. Clean digital look, sharp.
 **Sound [D]:** water sloshing at ankle depth, **pump hum**, bicycle bells, phones snapping photos, laughter and a note of unease.
@@ -356,8 +353,8 @@ structures grow/decay in time-lapse · vegetation reclaims · sun/moon sweep · 
 
 ---
 
-## 22. 10 September 2017 — Hurricane Irma
-**Slot:** 5:56–6:14 (18 s) · **Type:** Disaster · **Overlay:** 2010 census held · **Route:** Brickell Ave, Biscayne Blvd, and the site at **300 Biscayne Blvd**
+## 21. 10 September 2017 — Hurricane Irma
+**Slot:** 5:48–6:06 (18 s) · **Type:** Disaster · **Overlay:** 2010 census held · **Route:** Brickell Ave, Biscayne Blvd, and the site at **300 Biscayne Blvd**
 
 **Atmosphere [D]:** grey-green dusk, sheeting rain, water in the streets **like rivers**; palette = slate, steel, muted green with the only colour from emergency lights. A heavy sound mix.
 **Sound [D]:** howling wind, car alarms, rain on glass, a **crane creaking** overhead, sirens.
@@ -370,8 +367,8 @@ structures grow/decay in time-lapse · vegetation reclaims · sun/moon sweep · 
 
 ---
 
-## 23. 24 June 2021 — Surfside (memorial only)
-**Slot:** 6:14–6:30 (16 s) · **Type:** Disaster · **Overlay:** 2020 census: 442,241 · **Route:** cutaway to Surfside, a **memorial fence** across the street from the collapsed building
+## 22. 24 June 2021 — Surfside (memorial only)
+**Slot:** 6:06–6:22 (16 s) · **Type:** Disaster · **Overlay:** 2020 census: 442,241 · **Route:** cutaway to Surfside, a **memorial fence** across the street from the collapsed building
 
 **Atmosphere [D]:** soft **overcast morning light**, still air, flowers and a quiet hush; palette = muted whites, soft pinks, greys. **No music.** Slow, almost frozen camera.
 **Sound [D]:** distant surf, quiet voices, a flag or cloth flapping, footsteps on grass.
@@ -380,20 +377,46 @@ structures grow/decay in time-lapse · vegetation reclaims · sun/moon sweep · 
 **Hand-off:** someone hands you a **single flower** to place on the fence.
 **Text:** "24 June 2021 — Surfside: 98 lives lost" (minimal, dignified).
 **Ethics [D]:** **do not depict the collapse**, and **do not use real victims' photos or names**. Use abstract, generic mementos. Consider asking HistoryMiami and the community about acceptable depiction.
-**Transformation out:** the fence and flowers fade to the glass of a city at sunset.
+**Transformation out:** the flowers on the fence blur into flowers and bunting on a restored white tower.
 
 ---
 
-## 24. 2024 — Miami now (finale)
-**Slot:** 6:30–6:54 (24 s) · **Type:** — · **Overlay:** 2020 census held · **Route:** Brickell crosswalk in front of the towers
+## 23. September 2025 – September 2026 — Miami now (finale)
+**Slot:** 6:22–6:56 (34 s: ~10 s + ~10 s + ~14 s) · **Type:** — (major events) · **Overlay:** 2020 census held (442,241; I did not add a post-2020 figure) · **Route:** Freedom Tower and Biscayne Blvd → Bayfront Park → W Flagler St → Brickell crosswalk
 
-**Atmosphere [D]:** **golden hour** into blue hour: sun ~10° with amber glass reflections, then neon magenta and teal as the sky deepens; palette = teal, magenta, gold, glass blue. Clean, saturated, cinematic.
-**Sound [D]:** layered Spanish and English chatter, a Latin pop or reggaeton bassline from a passing car, a **Metromover** overhead [G], scooters, a distant siren, gulls, sea-air wind. Music: a warm, quiet build.
-**Facts [S/G]:** **Panorama Tower** topped out in late 2017 as the **tallest building in Miami and in Florida** [S]; **Brickell City Centre** anchors the district [S]. Everything else here is **present-day observation** [G] (Metromover, scooters, Cuban coffee culture, bilingual signage): verify on-site or with reference footage.
-**Look [G]:** streetwear, guayaberas, suits, athleisure; a delivery cyclist; a couple in linen.
-**Explainers [D]:** a **cafecito** window server; a pair chatting in Spanglish; a woman on an e-scooter passing.
-**Hand-off (closes the loop):** a server passes you a **cafecito** in a small paper cup, matching the shell cup you were handed 2,000 years ago. **Raise it. Cut to the title card.**
-**Text:** "MIAMI 2024" (title card, last 6 s).
+Three beats, each anchored to something documented and close to the walking route. Hard Rock Stadium is in Miami Gardens, so keep it to a short cutaway or a sound cue.
+
+### Beat A — Sept 2025: the Freedom Tower reopens for its centennial (~10 s)
+**Atmosphere [D]:** late-afternoon golden light on a freshly restored cream-and-tan facade; palette = warm cream, terracotta, sky blue. Warm, ceremonial, clean.
+**Sound [D]:** murmured Spanish and English, soft applause, a single trumpet, shoes on stone.
+**Facts [S]:** the **Freedom Tower** (1925; first the Miami News headquarters, then the Cuban Refugee Center) **reopened to the public on 16 Sept 2025** after a **$25 million restoration**, with **four new exhibitions**. This closes the loop with scene 12.
+**Explainers [D]:** an elderly woman resting her palm on the wall; a child craning to see the tower; a docent handing out programmes.
+**Hand-off:** the docent hands you an **exhibition ticket / programme**.
+**Text:** "16 Sept 2025 — Freedom Tower reopens for its centennial".
+
+### Beat B — June–July 2026: the FIFA World Cup (~10 s)
+**Atmosphere [D]:** blue-hour evening at Bayfront Park, floodlights and giant LED glow on the water; palette = saturated team colours against deep blue. Festival energy.
+**Sound [D]:** chanting in several languages, drums and horns, a concert bass beat, a cheer rippling through the crowd.
+**Facts [S]:** the **FIFA Fan Festival at Bayfront Park** ran **13 June – 5 July 2026** (free; **436,000 sq ft**; giant LED screens; a **10,000-capacity amphitheatre**; concerts, food, and **water-powered jetpack demonstrations over Biscayne Bay**). **Hard Rock Stadium** (called **"Miami Stadium"** during the tournament) hosted **seven matches, 15 June – 18 July 2026**; the group stage there featured **Brazil, Portugal, Colombia and Uruguay**, and Miami was the **only host city for the third-place match on 18 July**.
+**Explainers [D]:** a Brazilian family in yellow; a Colombian fan with a painted face; a jetpack pilot rising over the bay.
+**Hand-off:** a fan hands you a **team scarf** (a blend of colours works, so no single team is favoured).
+**Text:** "13 June – 5 July 2026 — FIFA Fan Festival, Bayfront Park" · "Miami hosts the bronze final, 18 July 2026".
+**Do not show a match result.** One search summary gave a third-place score that looks wrong, and I did not verify it.
+
+### Beat C — July–September 2026: 130 years, and 100 years since 1926 (~14 s)
+**Atmosphere [D]:** golden hour into blue hour: sun ~10° with amber glass reflections, then neon magenta and teal as the sky deepens; palette = teal, magenta, gold, glass blue. Clean, saturated, cinematic. A **thin film of water** in a low curb (Sept 2026 king-tide advisories and rain were in the news [S: CBS Miami]) reflects the towers.
+**Sound [D]:** layered Spanish and English chatter, a Latin pop bassline from a passing car, a **Metromover** overhead [G], scooters, gulls, sea-air wind. Music: a warm, quiet build.
+**Facts [S]:** the City of Miami turned **130** on **28 July 2026** (incorporated 28 July 1896). On **18 Sept 2026**, exactly a century after the hurricane, the **Museum of Miami** (101 W. Flagler St) opened **"Caught in the Eye: Remembering the 1926 Hurricane"**: **100 photographs**, film footage, newspapers, letters and first-hand accounts. The National Weather Service and the Old Post Office LLC also placed a **state historical marker** for the storm. **Panorama Tower** (topped out late 2017) and **Brickell City Centre** frame the Brickell skyline. The **2026 Atlantic hurricane season had no hurricanes by its peak** (Wikipedia summary; reconfirm before publishing), so this is a calm modern Miami.
+**Explainers [D]:** a museum visitor pausing at a window of black-and-white hurricane photographs (an echo of scene 10); a **cafecito** window server; a pair chatting in Spanglish; a woman on an e-scooter.
+**Hand-off (closes the loop):** the server passes you a **cafecito** in a small paper cup, matching the shell cup you were handed 2,000 years ago. **Raise it. Cut to the title card.**
+**Text:** "28 July 2026 — Miami turns 130" · "18 Sept 2026 — 100 years since the Great Miami Hurricane" · title card **"MIAMI 2026"** (last 6 s).
+**Caveat:** Metromover, scooters, Cuban-coffee windows and bilingual signage are present-day observations [G]; verify with on-site reference footage.
+
+**Left out to stay under 7:00 (available as swaps for Beat A or B):**
+- **9 Dec 2025:** Eileen Higgins elected mayor (first Democrat since 1997, first woman mayor; took office 18 Dec 2025) [S]. Politically charged, so use a neutral caption if included.
+- **14 June 2025:** Inter Miami vs Al Ahly opens the FIFA Club World Cup at Hard Rock (14 June – 1 July 2025) [S].
+- **14 July 2024:** Copa América final at Hard Rock: gate breach, 82-minute delay, Argentina 1–0 Colombia [S].
+- **July 2023:** Messi joins Inter Miami (Fort Lauderdale, not Miami) [S].
 
 ---
 
@@ -412,9 +435,12 @@ structures grow/decay in time-lapse · vegetation reclaims · sun/moon sweep · 
 | 1980 riots | Damage $80M vs $100M; deaths "at least 18" | Give a range |
 | Elián raid time | ~4:30 a.m. in one source; commonly ~5:15 a.m. | "Before dawn" |
 | Wilma | 30 deaths in Florida; ≥2,059 Miami-Dade homes uninhabitable | As stated |
+| World Cup bronze match, 18 July 2026 | One search summary gave a score; I could not corroborate it and it looks implausible | Do not show a score |
+| Hard Rock Stadium location | In Miami Gardens, not Miami proper | Cutaway or sound cue only |
+| 2026 hurricane season | Wikipedia summary says no hurricanes by the peak (strong El Niño) | Calm-year finale; reconfirm before publishing |
 | Camp Miami | Source dates (24 June 1898; 7,000+); one summary said the Army first rejected Miami; I couldn't read the full page | Recheck before modelling |
 
-**Items not verified at all** (all tagged [G] above): 16th-century Spanish and 1830s US Army uniform details, 1898 volunteer uniforms, 1960s ventanitas, dimout details, Metromover/Brightline in 2024, the exact look of every era's street furniture and signage. For visuals, use **archival photographs** (HistoryMiami, Florida Memory, Library of Congress, Sanborn fire-insurance maps).
+**Items not verified at all** (all tagged [G] above): 16th-century Spanish and 1830s US Army uniform details, 1898 volunteer uniforms, 1960s ventanitas, dimout details, Metromover and other present-day street details in 2026, the exact look of every era's street furniture and signage. For visuals, use **archival photographs** (HistoryMiami, Florida Memory, Library of Congress, Sanborn fire-insurance maps).
 
 ---
 
@@ -449,3 +475,11 @@ structures grow/decay in time-lapse · vegetation reclaims · sun/moon sweep · 
 - Irma — https://www.npr.org/2017/09/11/550058360/hurricane-irma-hits-miami-causing-major-flooding · https://www.nbcnews.com/storyline/hurricane-irma/hurricane-irma-cranes-collapse-downtown-miami-n800106
 - Surfside — https://en.wikipedia.org/wiki/Surfside_condominium_collapse · https://www.wlrn.org/news/2021-08-27/surfsides-memorial-to-champlain-towers-south-victims-will-come-down-to-preserve-mementos
 - Census — https://en.wikipedia.org/wiki/Demographics_of_Miami
+- Freedom Tower reopening, 2025 — https://www.wlrn.org/development/2025-09-16/miamis-freedom-tower-marks-its-centennial-with-its-the-re-opening
+- 2026 World Cup in Miami — https://www.hardrockstadium.com/events/fifa-world-cup-2026/ · https://miamifwc26.com/match-schedule/ · https://www.timeout.com/miami/things-to-do/2026-fifa-world-cup
+- Miami turns 130 — https://www.nbcmiami.com/news/local/1896-to-2026-celebrating-130-years-of-miami/3839271/ · https://www.key2mia.com/post/miami-turns-130
+- 1926 centennial — https://www.local10.com/features/2026/09/18/100-years-later-miami-museum-exhibit-looks-back-at-devastating-1926-hurricane/ · https://www.weather.gov/news/260915-great-miami-hurricane
+- 2026 hurricane season / king tides — https://en.wikipedia.org/wiki/2026_Atlantic_hurricane_season · https://www.cbsnews.com/miami/news/south-florida-weather-forecast-miami-fort-lauderdale-miami-dade-broward-september-10-2026/
+- 2025 mayoral election — https://en.wikipedia.org/wiki/2025_Miami_mayoral_election
+- FIFA Club World Cup 2025 — https://www.hardrockstadium.com/events/fifa-club-world-cup-2025/
+- 2024 Copa América final — https://www.wlrn.org/sports/2024-07-15/chaos-at-hard-rock-stadium-as-fans-breach-security-gates-ahead-of-copa-america-final
